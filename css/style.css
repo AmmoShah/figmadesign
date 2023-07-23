@@ -1,0 +1,2654 @@
+* {
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+* a {
+    text-decoration: none;
+}
+
+
+
+
+/* Header CSS */
+header {
+    display: flex;
+    gap: 32rem;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 1.88rem;
+    padding-top: 1.94rem;
+    padding-bottom: 2.31rem;
+}
+
+header :nth-child(2) {
+    display: flex;
+    justify-content: space-around;
+    gap: 5.19rem;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.logoText {
+    color: #1090CB;
+    font-size: 1.8125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+header div a {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: black;
+    text-decoration: none;
+}
+
+header div button {
+    width: 7.8125rem;
+    height: 2.5625rem;
+    border-radius: 0.375rem;
+    background: #1090CB;
+    border: none;
+    color: #fff;
+}
+
+/* Page 1 Section 1 CSS */
+
+
+
+.billSection {
+    position: relative;
+    background-color: #1090CB1A;
+    height: 743px;
+}
+
+.textDiv {
+    position: absolute;
+    left: 123px;
+    right: 687px;
+    top: 128px;
+    bottom: 165px;
+    display: flex;
+    flex-direction: column;
+}
+
+.textinnerDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.textinnerDiv :nth-child(1) {
+    color: #000;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 630px;
+    height: 193px;
+
+}
+
+.textinnerDiv :nth-child(2) {
+    color: #5C5C5C;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 204.3%;
+}
+
+.billDiv {
+    position: absolute;
+    top: -86px;
+    bottom: 66px;
+    left: 650px;
+
+}
+
+.ellipse2Div {
+    position: absolute;
+    top: 23px;
+    right: 1055px;
+    bottom: 216px;
+    left: -111px;
+}
+
+.buttonsDiv {
+    padding-top: 65px;
+}
+
+.buttonsDiv :nth-child(1) {
+    background-color: #1090CB;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    border-radius: 10px;
+    border: none;
+    padding: 9px 53px 9px 52px;
+}
+
+.buttonsDiv :nth-child(2) {
+    background-color: #fff;
+    color: #1090CB;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    border-radius: 10px;
+    border: none;
+    padding: 9px 53px 9px 52px;
+
+}
+
+.vector1 {
+    position: absolute;
+    top: 170px;
+    right: 0px;
+    bottom: 42px;
+}
+
+.vector2 {
+    position: absolute;
+    top: 300px;
+    left: 0px;
+}
+
+
+/* Page 1 Section 2 CSS */
+
+
+
+.workSection {
+    display: flex;
+    gap: 5px;
+    justify-content: space-around;
+    padding-top: 85px;
+    padding-bottom: 85px;
+
+}
+
+.imageDiv {
+    width: 83px;
+    height: 83px;
+    border-radius: 20px;
+    background: #EFEAFF;
+    position: relative;
+}
+
+.imageDiv img {
+    position: absolute;
+    top: 17px;
+    right: 21px;
+    left: 21px;
+    bottom: 17px;
+    height: 41px;
+    width: 41px;
+}
+
+.contentDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contentDiv2 {
+    display: flex;
+    flex-direction: column;
+    height: 41px;
+    justify-content: flex-start;
+}
+
+.workSection .contentDiv .contentDiv2 .imgHeading {
+    color: #000;
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    width: 199px;
+    height: 35px;
+
+}
+
+.workSection .contentDiv .contentDiv2 span {
+    color: #969696;
+
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    width: 166px;
+    height: 26px;
+
+
+}
+
+
+/* Page 1 Section 3 CSS */
+
+.thirdSection {
+
+    position: relative;
+
+}
+
+.textArea1 {
+
+    padding-top: 115px;
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.textAreaHeading {
+    color: #252525;
+    text-align: center;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    height: 44px;
+}
+
+.textAreatext {
+    color: #868686;
+    text-align: justify;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175%;
+    width: 692px;
+
+}
+
+.section3Div2 {
+    display: flex;
+    gap: 25px;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 391px;
+    padding-left: 123px;
+    padding-top: 100px;
+}
+
+.happyFace {
+    width: 58px;
+    height: 58px;
+    background-color: #08D3BB;
+    border: none;
+    border-radius: 100%;
+}
+
+.happyFace img {
+    padding: 16px;
+}
+
+.textField {
+    display: flex;
+    flex-direction: column;
+    height: 55px;
+}
+
+.mainTextfield {
+    display: flex;
+    flex-direction: column;
+    padding-left: 123px;
+    padding-top: 45px;
+    gap: 45px;
+}
+
+.headingText {
+    color: #1090CB;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 170%;
+    width: 516px;
+    height: 91px;
+}
+
+.paraText {
+    color: #545454;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+    width: 476px;
+    height: 141px;
+}
+
+.boldText {
+    color: #000;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 175%;
+}
+
+.normalText {
+    color: #868686;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175%;
+}
+
+.section3Image {
+    width: 650px;
+    height: 511px;
+
+}
+
+.section3Image img {
+    width: 650px;
+}
+
+.section3Container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.section3Image2 {
+    width: 600px;
+    height: 545px;
+}
+
+
+.section3Image3 {
+    width: 901px;
+    height: 470px;
+}
+
+.section3Image3 img {
+    width: 700px;
+    padding-top: 50px;
+}
+
+#bellPic {
+    position: absolute;
+    top: -77px;
+    right: 6px;
+    bottom: 381pxpx;
+    left: 411px;
+}
+
+/* Page 1 Section 4 CSS */
+
+
+.fourthSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 200px;
+}
+
+.rectangle10 {
+    border-radius: 20px;
+    background: #F4F4F4;
+    width: 572px;
+    height: 459px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    padding-top: 64px;
+    align-items: center;
+}
+
+.rectangle11 {
+    border-radius: 20px;
+    background: #1090CB;
+    width: 572px;
+    height: 459px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    padding-top: 64px;
+    align-items: center;
+    position: relative;
+}
+
+.rectangle10 :nth-child(1) {
+    color: #252525;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 170%;
+    width: 365px;
+    height: 84px;
+}
+
+.rectangle10 :nth-child(2) {
+    color: #545454;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+    width: 476px;
+    height: 141px;
+}
+
+.rectangle10 :nth-child(3) {
+    border-radius: 10px;
+    background: #1090CB;
+    border: none;
+    padding: 11px 35px;
+    color: #fff;
+}
+
+.rectangle11 :nth-child(1) {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 170%;
+    width: 365px;
+    height: 84px;
+}
+
+.rectangle11 :nth-child(2) {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+    width: 476px;
+    height: 141px;
+}
+
+.rectangle11 :nth-child(3) {
+    border-radius: 10px;
+    background: #fff;
+    border: none;
+    padding: 11px 35px;
+    color: #1090CB;
+}
+
+.frame18 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11px;
+    padding-top: 184px;
+}
+
+.simpleText {
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 159%;
+}
+
+.frame18 :nth-child(2) {
+    display: flex;
+    gap: 115px;
+}
+
+/* Page1 Section 5 CSS */
+
+.section5 {
+    margin: auto;
+    height: 534px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    background: #E8F4FA;
+    position: relative;
+}
+
+.section5 :nth-child(1) {
+    width: 516px;
+    height: 91px;
+}
+
+#starPic {
+    position: absolute;
+    top: -44px;
+    left: 167px;
+    bottom: 490px;
+}
+
+#paichartPic {
+    position: absolute;
+    top: 94px;
+    right: 397px;
+    bottom: 386px;
+}
+
+.section5Text {
+    color: #252525;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 170%;
+    width: 516px;
+    height: 91px;
+}
+
+#emailSub {
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 84px 0px rgba(0, 0, 0, 0.07);
+    width: 532px;
+    height: 67px;
+}
+
+.subButton {
+    color: #FFF4F4;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 170%;
+    padding: 20px 44px;
+    background-color: #000;
+    border-radius: 10px;
+    border: none;
+}
+
+/* Contact Us Page Section 1 CSS */
+
+.page3Section1 {
+    display: flex;
+    justify-content: space-around;
+    gap: 8rem;
+
+}
+
+.page3Section1 :nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    gap: 1.69rem;
+    justify-content: center;
+}
+
+.page3Section1Div1 :nth-child(1) {
+    width: 4.8125rem;
+    height: 4.8125rem;
+    background-color: #F5F3DA;
+    border-radius: 100%;
+}
+
+.page3Section1Div1 :nth-child(2) {
+    color: #000;
+    font-size: 2.8125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 170%;
+}
+
+.page3Section1Div1 :nth-child(3) {
+    color: #777;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 189.5%;
+    width: 27.3125rem;
+    height: 4.4375rem;
+}
+
+/* Contact Us Page Section 2 CSS */
+
+.page3Section2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+    padding-left: 8.31rem;
+    padding-right: 7.44rem;
+}
+
+.page3Section2 :nth-child(1) {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.fontawesomeDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.iconsDiv {
+    width: 2.125rem;
+    height: 2.125rem;
+    border-radius: 100%;
+    filter: drop-shadow(0px 4px 14px rgba(0, 0, 0, 0.15));
+
+}
+
+.iconsDiv i {
+    padding: 0.69rem;
+}
+
+.page3Section2 :nth-child(1) span {
+    color: #333;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 189.5%;
+}
+
+.page3Section2 :nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    gap: 1.56rem;
+    align-items: center;
+
+}
+
+.page3Section2 :nth-child(2) span {
+    color: #333;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+
+}
+
+
+
+.page3Section2 :nth-child(3) {
+    display: flex;
+    flex-direction: row;
+    gap: 1.19rem;
+    align-items: center;
+}
+
+.page3Section2 :nth-child(3) span {
+    color: #333;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+#phoneVolume {
+    font-size: 1.875rem;
+}
+
+#locationDot {
+    font-size: 1.875rem;
+}
+
+/* Contact Us Page Form Section CSS */
+
+.formSection {
+    background-color: #E8F4FA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6.56rem;
+    padding-top: 3.38rem;
+    padding-bottom: 7.94rem;
+    position: relative;
+
+}
+
+.formHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formHeader :nth-child(1) {
+    color: #000;
+    font-family: Poppins;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 189.5%;
+}
+
+.formHeader :nth-child(2) {
+    color: #777;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 189.5%;
+    width: 27rem;
+    height: 1.625rem;
+}
+
+.nameInput {
+    display: flex;
+    flex-direction: row;
+    gap: 1.69rem;
+}
+
+.formLabel {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.formSection label {
+    color: #4F4F4F;
+    font-family: Poppins;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 175.4%;
+    letter-spacing: -0.01875rem;
+}
+
+.formSection input {
+    border: none;
+    border-radius: 0.5625rem;
+    background: #FFF;
+}
+
+.formSection textarea {
+    border: none;
+    border-radius: 0.5625rem;
+    background: #FFF;
+    resize: none;
+
+}
+
+.formSection button {
+    margin-top: 3.56rem;
+    position: absolute;
+    right: 30.4rem;
+    bottom: 3.94rem;
+    border-radius: 0.625rem;
+    background: #1090CB;
+    color: #fff;
+    border: none;
+    padding: 0.56rem 2rem;
+
+}
+
+/* About us page CSS */
+/* Section 1 CSS */
+.page2Section1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 6.18%;
+    padding-right: 11.31%;
+    padding-top: 9.75rem;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.page2Section1 :nth-child(1) {
+    display: flex;
+    flex-direction: row;
+    gap: 4%;
+}
+
+.page2Section1 :nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    gap: 3.54%;
+}
+
+.page2section1text {
+    display: flex;
+    flex-direction: column;
+    gap: 2.31rem;
+}
+
+.page2section1text :nth-child(1) {
+    color: #1090CB;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.page2section1text :nth-child(2) {
+    color: #252525;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 170%;
+    width: 35.3125rem;
+    height: 8rem;
+}
+
+.page2section1text :nth-child(3) {
+    color: #868686;
+    font-family: Poppins;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175%;
+    width: 28.9375rem;
+}
+
+/* Section 2 CSS */
+.page2Section2 {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding-top: 13rem;
+    padding-left: 8.54%;
+}
+
+.page2Section2 :nth-child(1) {
+    color: #1090CB;
+    font-family: Poppins;
+    font-size: 2.8125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    width: 50.4375rem;
+    height: 9.25rem;
+}
+
+.page2Section2 :nth-child(2) {
+    color: #585858;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    width: 63.375rem;
+    height: 10.4375rem;
+}
+
+/* Section 3 CSS */
+.page2Section3 {
+    display: flex;
+    flex-direction: row;
+    gap: 3.25rem;
+    padding-left: 8.54%;
+    padding-top: 11.4rem;
+}
+
+.page2Section3text {
+    display: flex;
+    flex-direction: column;
+    gap: 2.3rem;
+}
+
+.page2Section3text :nth-child(1) {
+    color: #000;
+    font-family: Poppins;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    width: 31.1875rem;
+    height: 6.8125rem;
+    flex-shrink: 0;
+}
+
+.page2Section3text {
+    color: #585858;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    width: 30.4375rem;
+    height: 9.4375rem;
+    flex-shrink: 0;
+}
+
+.page2Section3text button {
+    width: 12.0625rem;
+    height: 3.1875rem;
+    border-radius: 0.625rem;
+    border: 1px solid #1090CB;
+    background: #FFF;
+    color: #1090CB;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 204.3%;
+    padding: 0.56rem 3.38rem;
+}
+
+#rectangle20 {
+    width: 3.375rem;
+    height: 0.3125rem;
+}
+
+
+.iconsAndtextDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 3.44rem;
+    background: #FFF;
+    box-shadow: 0px 4px 124px 0px rgba(0, 0, 0, 0.10);
+    padding: 4.06rem 5.69rem 5.94rem 3.81rem;
+}
+
+.iconsAndtextDiv :nth-child(1) {
+    display: flex;
+    flex-direction: row;
+    gap: 0.25rem;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+
+}
+
+.iconsAndtextDiv :nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    gap: 0.35rem;
+}
+
+.section3Icons {
+    width: 5.6875rem;
+    height: 5.625rem;
+    border-radius: 1.25rem;
+    background: #FFF2F2;
+}
+
+.section3Icons img {
+    width: 2.5625rem;
+    height: 2.5625rem;
+    padding: 1.56rem;
+}
+
+.iconsAndtextDiv span {
+    color: #2E0D64;
+    text-align: center;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 177.9%;
+}
+
+/* Section 3 CSS */
+.page2Section4 {
+    display: flex;
+    flex-direction: column;
+    gap: 4.44rem;
+    padding-left: 7.69rem;
+    padding-top: 8.75rem;
+    padding-bottom: 8.56rem;
+}
+
+.page2Section4 :nth-child(1) {
+    color: #000;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 170%
+}
+
+.page2Section4 :nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: space-between;
+}
+
+.page2Section4 :nth-child(2) div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.38rem;
+    justify-content: start;
+}
+
+.page2Section4 :nth-child(2) span {
+    color: #6A6A6A;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 210.9%;
+    letter-spacing: 0.01rem;
+    width: 5.625rem;
+    text-align: left;
+}
+
+.page2Section4 :nth-child(2) p {
+    color: #000;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 210.9%;
+    letter-spacing: 0.01125rem;
+}
+
+.page2Section4images {
+    width: 16.75rem;
+    height: 13.56rem;
+}
+
+.page2Section4uxImage {
+    height: 13.56rem;
+}
+
+/* Footer CSS */
+footer {
+    display: flex;
+    justify-content: space-around;
+    gap: 58px;
+    padding-top: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    flex-shrink: 0;
+}
+
+.fdiv1 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.fdiv1 :nth-child(1) {
+    color: #00329B;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 45px;
+    height: 24px;
+}
+
+.footerText {
+    color: #515151;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.fdiv2 {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+
+.fdiv2 :nth-child(1) {
+    color: #000;
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.fdiv3 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.fdiv3 :nth-child(1) {
+    color: #000;
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.fdiv4 {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: end;
+}
+
+.iconsDiv {
+    width: 34px;
+    height: 34px;
+    fill: #e2d7d7;
+    filter: drop-shadow(0px 4px 14px rgba(138, 23, 23, 0.15));
+    border-radius: 100%;
+}
+
+.copyrightDiv {
+    color: #686868;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 190.6%;
+    margin: auto;
+    padding: 27px 488px;
+    border-top: 1px solid #D2D2D2;
+}
+
+
+
+@media only screen and (max-width:600px) {
+
+    /* Header CSS */
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        gap: 0.5rem;
+        width: 80%;
+        border: 1px solid black;
+    }
+
+    header :nth-child(2) {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    header div a {
+        font-size: 0.5rem;
+    }
+
+    header div button {
+        width: 3.5rem;
+        height: 1.5rem;
+        font-size: 0.5rem;
+    }
+
+    /* Page 1 Section 1 CSS */
+
+
+
+    .billSection {
+        position: relative;
+        background-color: #1090CB1A;
+        border: 1px solid black;
+        width: 80%;
+
+    }
+
+    .textDiv {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: start;
+        gap: 5px;
+        left: 0;
+    }
+
+    .textinnerDiv {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .textinnerDiv :nth-child(1) {
+        color: #000;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        width: 330px;
+        height: 90px;
+
+    }
+
+    .textinnerDiv :nth-child(2) {
+        color: #5C5C5C;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 204.3%;
+        width: 330px;
+        height: 80px;
+    }
+
+    .billDiv img {
+        width: 350px;
+        height: 400px;
+    }
+
+    .billDiv {
+        position: absolute;
+        left: 0px;
+        top: 340px;
+
+    }
+
+    .ellipse2Div {
+        display: none;
+    }
+
+    .buttonsDiv {
+        padding-top: 30px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .buttonsDiv :nth-child(1) {
+        background-color: #1090CB;
+        color: #fff;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        border-radius: 10px;
+        border: none;
+        padding: 9px 45px 9px 45px;
+        flex-shrink: 0;
+    }
+
+    .buttonsDiv :nth-child(2) {
+        background-color: #fff;
+        color: #1090CB;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        border-radius: 10px;
+        border: none;
+        padding: 9px 45px 9px 45px;
+        flex-shrink: 0;
+
+    }
+
+    .vector1 {
+        /* position: absolute;
+        top: 170px;
+        right: 0px;
+        bottom: 42px; */
+        display: none;
+    }
+
+    .vector2 {
+        /* position: absolute;
+        top: 300px;
+        left: 0px; */
+        display: none;
+    }
+
+
+    /* Page 1 Section 2 CSS */
+
+
+
+    .workSection {
+        display: flex;
+        gap: 5px;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-top: 85px;
+        padding-bottom: 10px;
+        border: 1px solid black;
+        width: 80%;
+
+    }
+
+    .imageDiv {
+        width: 83px;
+        height: 83px;
+        border-radius: 20px;
+        background: #EFEAFF;
+        position: relative;
+    }
+
+    .imageDiv img {
+        position: absolute;
+        top: 17px;
+        right: 21px;
+        left: 21px;
+        bottom: 17px;
+        height: 41px;
+        width: 41px;
+    }
+
+    .contentDiv {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    /* Page 1 Section 3 CSS */
+
+    .thirdSection {
+
+        position: relative;
+        border: 1px solid black;
+        width: 80%;
+
+    }
+
+    .textArea1 {
+
+        padding-top: 50px;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+        width: 95%;
+        height: 160px;
+
+    }
+
+    .textAreaHeading {
+        color: #252525;
+        text-align: left;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 160%;
+        height: 84px;
+    }
+
+    .textAreatext {
+        color: #868686;
+        text-align: justify;
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 175%;
+        width: 80%;
+
+    }
+
+    .section3Div2 {
+        display: flex;
+        gap: 5px;
+        flex-direction: row;
+        justify-content: start;
+        width: 90%;
+        padding-left: 2%;
+        padding-top: 100px;
+    }
+
+    .happyFace {
+        width: 58px;
+        height: 58px;
+        background-color: #08D3BB;
+        border: none;
+        border-radius: 100%;
+    }
+
+    .happyFace img {
+        padding: 16px;
+    }
+
+    .textField {
+        display: flex;
+        flex-direction: column;
+        height: 55px;
+    }
+
+    .mainTextfield {
+        display: flex;
+        flex-direction: column;
+        padding-left: 5%;
+        padding-top: 45px;
+        gap: 5px;
+    }
+
+    .headingText {
+        color: #1090CB;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 170%;
+        width: fit-content;
+        height: 25px;
+    }
+
+    .paraText {
+        color: #545454;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 170%;
+        width: 75%;
+        height: 141px;
+    }
+
+    .boldText {
+        color: #000;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 175%;
+    }
+
+    .normalText {
+        color: #868686;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 175%;
+    }
+
+    .section3Image {
+        width: fit-content;
+        height: 511px;
+
+    }
+
+    .section3Image img {
+        width: 350px;
+    }
+
+    .section3Container {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .section3Image2 {
+        width: fit-content;
+        height: 545px;
+    }
+
+    .section3Image2 img {
+
+        width: 350px;
+
+    }
+
+
+    .section3Image3 {
+        width: fit-content;
+        height: 470px;
+    }
+
+    .section3Image3 img {
+        width: 350px;
+        padding-top: 50px;
+    }
+
+    #section3container2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mockupImg {
+        position: absolute;
+        top: 1300px;
+    }
+
+    #mockupPara {
+        position: absolute;
+        top: 900px;
+    }
+
+
+
+    /* Page 1 Section 4 CSS */
+
+
+    .fourthSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+        padding-top: 200px;
+        border: 1px solid black;
+        width: 80%;
+    }
+
+    .rectangle10 {
+        border-radius: 20px;
+        background: #F4F4F4;
+        width: 95%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        align-items: center;
+    }
+
+    .rectangle11 {
+        border-radius: 20px;
+        background: #1090CB;
+        width: 95%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        align-items: center;
+        position: relative;
+    }
+
+    .rectangle10 :nth-child(1) {
+        color: #252525;
+        text-align: center;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 170%;
+        width: 365px;
+        height: 84px;
+    }
+
+    .rectangle10 :nth-child(2) {
+        color: #545454;
+        text-align: center;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 170%;
+        width: 476px;
+        height: 141px;
+    }
+
+    .rectangle10 :nth-child(3) {
+        border-radius: 10px;
+        background: #1090CB;
+        border: none;
+        padding: 11px 35px;
+        color: #fff;
+    }
+
+    .rectangle11 :nth-child(1) {
+        color: #FFF;
+        text-align: center;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 170%;
+        width: 365px;
+        height: 84px;
+    }
+
+    .rectangle11 :nth-child(2) {
+        color: #FFF;
+        text-align: center;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 170%;
+        width: 476px;
+        height: 141px;
+    }
+
+    .rectangle11 :nth-child(3) {
+        border-radius: 10px;
+        background: #fff;
+        border: none;
+        padding: 11px 35px;
+        color: #1090CB;
+    }
+
+    #bellPic {
+        /* position: absolute;
+        top: -30px;
+        left: 370px;
+        width: 100px; */
+        display: none;
+    }
+
+    .frame18 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 11px;
+        padding-top: 184px;
+    }
+
+    .simpleText {
+        color: #000;
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 159%;
+    }
+
+    .frame18 :nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+
+    /* Page1 Section 5 CSS */
+
+    .section5 {
+        margin: auto;
+        width: 80%;
+        height: 534px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        background: #E8F4FA;
+        position: relative;
+        border: 1px solid black;
+    }
+
+    .section5 :nth-child(1) {
+        width: 100%;
+        height: 91px;
+    }
+
+    .section5 :nth-child(2) {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #starPic {
+        position: absolute;
+        display: none;
+    }
+
+    #paichartPic {
+        display: none;
+    }
+
+    .section5Text {
+        color: #252525;
+        text-align: center;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 170%;
+        width: 70%;
+        height: 91px;
+    }
+
+    #emailSub {
+        border-radius: 10px;
+        background: #FFF;
+        box-shadow: 0px 4px 84px 0px rgba(0, 0, 0, 0.07);
+        width: 120%;
+        height: 35px;
+    }
+
+    .subButton {
+        color: #FFF4F4;
+        text-align: center;
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 170%;
+        padding: 10px 12px;
+        background-color: #000;
+        border-radius: 10px;
+        border: none;
+        width: fit-content;
+    }
+
+    /* Contact Us Page CSS */
+    /* Contact Us Page Section 1 CSS */
+
+    .page3Section1 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .page3Section1 :nth-child(2) img {
+        width: 28rem;
+        height: 24.4375rem;
+    }
+
+    .page3Section1Div1 :nth-child(2) {
+        color: #000;
+        font-size: 1.8125rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 170%;
+    }
+
+    .page3Section1Div1 :nth-child(3) {
+        color: #777;
+        font-size: 0.9rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 189.5%;
+    }
+
+    /* Contact Us Page Section 2 CSS */
+    .page3Section2 {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: start;
+        gap: 3rem;
+    }
+
+    /* Contact Us Page Form Section CSS */
+
+
+    .formSection button {
+        margin-top: 3.56rem;
+        position: absolute;
+        right: 7rem;
+        bottom: 3.94rem;
+    }
+
+    /* About us page CSS */
+    /* Section 1 CSS */
+
+    .page2Section1 :nth-child(1) {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 3rem;
+    }
+
+    .section1Pics {
+        width: 70%;
+        height: 21.625rem;
+    }
+
+    .page2Section1 :nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+
+    }
+
+    .page2section1text {
+        gap: 1rem;
+    }
+
+    .page2section1text :nth-child(2) {
+        font-size: 1.5rem;
+        width: 85%;
+    }
+
+    .page2section1text :nth-child(3) {
+        font-size: 0.8rem;
+        width: 85%;
+    }
+
+    /* Section 2 CSS */
+
+    .page2Section2 {
+        padding-top: 3rem;
+        gap: 1.25rem;
+    }
+
+    .page2Section2 :nth-child(1) {
+        font-size: 1.8125rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 160%;
+        width: 85%;
+        height: 9.25rem;
+    }
+
+    .page2Section2 :nth-child(2) {
+
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 200%;
+        width: 90%;
+        height: 10.4375rem;
+    }
+
+    /* Section 2 CSS */
+    .page2Section3 {
+        flex-direction: column-reverse;
+    }
+
+    .iconsAndtextDiv span {
+        font-size: 0.5625rem;
+    }
+
+    .section3Icons {
+        width: 30%;
+        height: 5.625rem;
+        border-radius: 1.25rem;
+        background: #FFF2F2;
+    }
+
+    .section3Icons img {
+        width: 80%;
+        height: 2.5625rem;
+    }
+
+    .iconsAndtextDiv :nth-child(1) {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+
+    }
+
+    .iconsAndtextDiv :nth-child(2) {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+    }
+
+
+    .page2Section3text :nth-child(1) {
+        color: #000;
+        font-size: 2.875rem;
+        font-style: normal;
+        line-height: 160%;
+        width: 80%;
+        height: 6.8125rem;
+        flex-shrink: 0;
+        font-weight: 900;
+    }
+
+    .page2Section3text {
+        color: #585858;
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 200;
+        line-height: 200%;
+        width: 90%;
+        height: 9.4375rem;
+        flex-shrink: 0;
+    }
+
+    /* Section 3 CSS */
+    .page2Section4 :nth-child(2) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .page2Section4uxImage {
+        width: max-content;
+    }
+
+
+
+    /* Footer CSS */
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        width: 65%;
+    }
+
+    .copyrightDiv {
+        margin: auto;
+        padding-left: 5%;
+        padding-right: 2%;
+        font-size: 0.8125rem;
+    }
+
+}
+
+@media only screen and (max-width:768px) {
+
+    /* Header CSS */
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        gap: 0.5rem;
+        width: 80%;
+        border: 1px solid black;
+    }
+
+    header :nth-child(2) {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    header div a {
+        font-size: 0.5rem;
+    }
+
+    header div button {
+        width: 3.5rem;
+        height: 1.5rem;
+        font-size: 0.5rem;
+    }
+
+    /* Page 1 Section 1 CSS */
+
+
+
+    .billSection {
+        position: relative;
+        background-color: #1090CB1A;
+        border: 1px solid black;
+        width: 80%;
+
+    }
+
+    .textDiv {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: start;
+        gap: 5px;
+        left: 0;
+    }
+
+    .textinnerDiv {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .textinnerDiv :nth-child(1) {
+        color: #000;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        width: 330px;
+        height: 90px;
+
+    }
+
+    .textinnerDiv :nth-child(2) {
+        color: #5C5C5C;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 204.3%;
+        width: 330px;
+        height: 80px;
+    }
+
+    .billDiv img {
+        width: 350px;
+        height: 400px;
+    }
+
+    .billDiv {
+        position: absolute;
+        left: 0px;
+        top: 340px;
+
+    }
+
+    .ellipse2Div {
+        display: none;
+    }
+
+    .buttonsDiv {
+        padding-top: 30px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .buttonsDiv :nth-child(1) {
+        background-color: #1090CB;
+        color: #fff;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        border-radius: 10px;
+        border: none;
+        padding: 9px 45px 9px 45px;
+        flex-shrink: 0;
+    }
+
+    .buttonsDiv :nth-child(2) {
+        background-color: #fff;
+        color: #1090CB;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        border-radius: 10px;
+        border: none;
+        padding: 9px 45px 9px 45px;
+        flex-shrink: 0;
+
+    }
+
+    .vector1 {
+        /* position: absolute;
+        top: 170px;
+        right: 0px;
+        bottom: 42px; */
+        display: none;
+    }
+
+    .vector2 {
+        /* position: absolute;
+        top: 300px;
+        left: 0px; */
+        display: none;
+    }
+
+
+    /* Page 1 Section 2 CSS */
+
+
+
+    .workSection {
+        display: flex;
+        gap: 5px;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-top: 85px;
+        padding-bottom: 10px;
+        border: 1px solid black;
+        width: 80%;
+
+    }
+
+    .imageDiv {
+        width: 83px;
+        height: 83px;
+        border-radius: 20px;
+        background: #EFEAFF;
+        position: relative;
+    }
+
+    .imageDiv img {
+        position: absolute;
+        top: 17px;
+        right: 21px;
+        left: 21px;
+        bottom: 17px;
+        height: 41px;
+        width: 41px;
+    }
+
+    .contentDiv {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    /* Page 1 Section 3 CSS */
+
+    .thirdSection {
+
+        position: relative;
+        border: 1px solid black;
+        width: 80%;
+
+    }
+
+    .textArea1 {
+
+        padding-top: 50px;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+        width: 95%;
+        height: 160px;
+
+    }
+
+    .textAreaHeading {
+        color: #252525;
+        text-align: left;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 160%;
+        height: 84px;
+    }
+
+    .textAreatext {
+        color: #868686;
+        text-align: justify;
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 175%;
+        width: 80%;
+
+    }
+
+    .section3Div2 {
+        display: flex;
+        gap: 5px;
+        flex-direction: row;
+        justify-content: start;
+        width: 90%;
+        padding-left: 2%;
+        padding-top: 100px;
+    }
+
+    .happyFace {
+        width: 58px;
+        height: 58px;
+        background-color: #08D3BB;
+        border: none;
+        border-radius: 100%;
+    }
+
+    .happyFace img {
+        padding: 16px;
+    }
+
+    .textField {
+        display: flex;
+        flex-direction: column;
+        height: 55px;
+    }
+
+    .mainTextfield {
+        display: flex;
+        flex-direction: column;
+        padding-left: 5%;
+        padding-top: 45px;
+        gap: 5px;
+    }
+
+    .headingText {
+        color: #1090CB;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 170%;
+        width: fit-content;
+        height: 25px;
+    }
+
+    .paraText {
+        color: #545454;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 170%;
+        width: 75%;
+        height: 141px;
+    }
+
+    .boldText {
+        color: #000;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 175%;
+    }
+
+    .normalText {
+        color: #868686;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 175%;
+    }
+
+    .section3Image {
+        width: fit-content;
+        height: 511px;
+
+    }
+
+    .section3Image img {
+        width: 350px;
+    }
+
+    .section3Container {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .section3Image2 {
+        width: fit-content;
+        height: 545px;
+    }
+
+    .section3Image2 img {
+
+        width: 350px;
+
+    }
+
+
+    .section3Image3 {
+        width: fit-content;
+        height: 470px;
+    }
+
+    .section3Image3 img {
+        width: 350px;
+        padding-top: 50px;
+    }
+
+    #section3container2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mockupImg {
+        position: absolute;
+        top: 1300px;
+    }
+
+    #mockupPara {
+        position: absolute;
+        top: 900px;
+    }
+
+
+
+    /* Page 1 Section 4 CSS */
+
+
+    .fourthSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+        padding-top: 200px;
+        border: 1px solid black;
+        width: 80%;
+    }
+
+    .rectangle10 {
+        border-radius: 20px;
+        background: #F4F4F4;
+        width: 95%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        align-items: center;
+    }
+
+    .rectangle11 {
+        border-radius: 20px;
+        background: #1090CB;
+        width: 95%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        align-items: center;
+        position: relative;
+    }
+
+    .rectangle10 :nth-child(1) {
+        color: #252525;
+        text-align: center;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 170%;
+        width: 365px;
+        height: 84px;
+    }
+
+    .rectangle10 :nth-child(2) {
+        color: #545454;
+        text-align: center;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 170%;
+        width: 476px;
+        height: 141px;
+    }
+
+    .rectangle10 :nth-child(3) {
+        border-radius: 10px;
+        background: #1090CB;
+        border: none;
+        padding: 11px 35px;
+        color: #fff;
+    }
+
+    .rectangle11 :nth-child(1) {
+        color: #FFF;
+        text-align: center;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 170%;
+        width: 365px;
+        height: 84px;
+    }
+
+    .rectangle11 :nth-child(2) {
+        color: #FFF;
+        text-align: center;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 170%;
+        width: 476px;
+        height: 141px;
+    }
+
+    .rectangle11 :nth-child(3) {
+        border-radius: 10px;
+        background: #fff;
+        border: none;
+        padding: 11px 35px;
+        color: #1090CB;
+    }
+
+    #bellPic {
+        /* position: absolute;
+        top: -30px;
+        left: 370px;
+        width: 100px; */
+        display: none;
+    }
+
+    .frame18 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 11px;
+        padding-top: 184px;
+    }
+
+    .simpleText {
+        color: #000;
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 159%;
+    }
+
+    .frame18 :nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+
+    /* Page1 Section 5 CSS */
+
+    .section5 {
+        margin: auto;
+        width: 80%;
+        height: 534px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        background: #E8F4FA;
+        position: relative;
+        border: 1px solid black;
+    }
+
+    .section5 :nth-child(1) {
+        width: 100%;
+        height: 91px;
+    }
+
+    .section5 :nth-child(2) {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #starPic {
+        position: absolute;
+        display: none;
+    }
+
+    #paichartPic {
+        display: none;
+    }
+
+    .section5Text {
+        color: #252525;
+        text-align: center;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 170%;
+        width: 70%;
+        height: 91px;
+    }
+
+    #emailSub {
+        border-radius: 10px;
+        background: #FFF;
+        box-shadow: 0px 4px 84px 0px rgba(0, 0, 0, 0.07);
+        width: 120%;
+        height: 35px;
+    }
+
+    .subButton {
+        color: #FFF4F4;
+        text-align: center;
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 170%;
+        padding: 10px 12px;
+        background-color: #000;
+        border-radius: 10px;
+        border: none;
+        width: fit-content;
+    }
+
+    /* Contact Us Page CSS */
+    /* Contact Us Page Section 1 CSS */
+
+    .page3Section1 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .page3Section1 :nth-child(2) img {
+        width: 28rem;
+        height: 24.4375rem;
+    }
+
+    .page3Section1Div1 :nth-child(2) {
+        color: #000;
+        font-size: 1.8125rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 170%;
+    }
+
+    .page3Section1Div1 :nth-child(3) {
+        color: #777;
+        font-size: 0.9rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 189.5%;
+    }
+
+    /* Contact Us Page Section 2 CSS */
+    .page3Section2 {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: start;
+        gap: 3rem;
+    }
+
+    /* Contact Us Page Form Section CSS */
+
+
+    .formSection button {
+        margin-top: 3.56rem;
+        position: absolute;
+        right: 7rem;
+        bottom: 3.94rem;
+    }
+
+    /* About us page CSS */
+    /* Section 1 CSS */
+
+    .page2Section1 :nth-child(1) {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 3rem;
+    }
+
+    .section1Pics {
+        width: 70%;
+        height: 21.625rem;
+    }
+
+    .page2Section1 :nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+
+    }
+
+    .page2section1text {
+        gap: 1rem;
+    }
+
+    .page2section1text :nth-child(2) {
+        font-size: 1.5rem;
+        width: 85%;
+    }
+
+    .page2section1text :nth-child(3) {
+        font-size: 0.8rem;
+        width: 85%;
+    }
+
+    /* Section 2 CSS */
+
+    .page2Section2 {
+        padding-top: 3rem;
+        gap: 1.25rem;
+    }
+
+    .page2Section2 :nth-child(1) {
+        font-size: 1.8125rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 160%;
+        width: 85%;
+        height: 9.25rem;
+    }
+
+    .page2Section2 :nth-child(2) {
+
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 200%;
+        width: 90%;
+        height: 10.4375rem;
+    }
+
+    /* Section 2 CSS */
+    .page2Section3 {
+        flex-direction: column-reverse;
+    }
+
+    .iconsAndtextDiv span {
+        font-size: 0.5625rem;
+    }
+
+    .section3Icons {
+        width: 30%;
+        height: 5.625rem;
+        border-radius: 1.25rem;
+        background: #FFF2F2;
+    }
+
+    .section3Icons img {
+        width: 80%;
+        height: 2.5625rem;
+    }
+
+    .iconsAndtextDiv :nth-child(1) {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+
+    }
+
+    .iconsAndtextDiv :nth-child(2) {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+    }
+
+
+    .page2Section3text :nth-child(1) {
+        color: #000;
+        font-size: 2.875rem;
+        font-style: normal;
+        line-height: 160%;
+        width: 80%;
+        height: 6.8125rem;
+        flex-shrink: 0;
+        font-weight: 900;
+    }
+
+    .page2Section3text {
+        color: #585858;
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 200;
+        line-height: 200%;
+        width: 90%;
+        height: 9.4375rem;
+        flex-shrink: 0;
+    }
+
+    /* Section 3 CSS */
+    .page2Section4 :nth-child(2) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .page2Section4uxImage {
+        width: max-content;
+    }
+
+
+
+    /* Footer CSS */
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        width: 65%;
+    }
+
+    .copyrightDiv {
+        margin: auto;
+        padding-left: 5%;
+        padding-right: 2%;
+        font-size: 0.8125rem;
+    }
+
+}
